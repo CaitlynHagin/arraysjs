@@ -24,14 +24,14 @@ myArray.push('hot coco')
 
 console.log(myArray.length)
 
-let find = myArray.indexOf("chai",2)
+let find = myArray.indexOf("chai")
 
-console.log(find)
+//console.log(find)
 
-let myFoundItem = myArray.includes("lemon")
-let myNonFoundItem = myArray.includes('veg')
+// let myFoundItem = myArray.includes("lemon")
+// let myNonFoundItem = myArray.includes('veg')
 
-console.log(myFoundItem, myNonFoundItem)
+//console.log(myFoundItem, myNonFoundItem)
 
-console.log(myArray.sort().reverse()) 
+console.log(myArray.sort()) 
 //sorts it in alphabetical order
